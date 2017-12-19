@@ -11,7 +11,6 @@ Simple package for focused on sidebar and unfocus when close sidebar.
 "close_sidebar_if_opened": true
 ```
 4. Add hotkey *Preferences > Key Bindings*:
-=======
 ```json
 { "keys": ["f1"], "command": "sidebar_focus" }
 ```

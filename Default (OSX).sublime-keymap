@@ -1,3 +1,3 @@
 [
-  { "keys": ["f1"], "command": "focus_file_on_sidebar" }
+  { "keys": ["f1"], "command": "sidebar_focus" }
 ]

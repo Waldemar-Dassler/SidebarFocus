@@ -38,7 +38,7 @@ def set_project_json(self, data):
     return self.window.set_project_data(data)
 
 
-class FocusFileOnSidebar(sublime_plugin.WindowCommand):
+class SidebarFocus(sublime_plugin.WindowCommand):
     def run(self):
         if not self.window.is_sidebar_visible():
             self.window.set_sidebar_visible(True)

@@ -19,4 +19,74 @@ Simple package for focused on sidebar and unfocus when close sidebar.
 "close_sidebar_if_opened": true //by default
 ```
 
+
+*If you like VIM navigation you can add for navigation in sidebar.*
+```json
+{
+		"keys": ["h"],
+		"command": "move",
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"context":
+		[
+			{
+				"key": "control",
+				"operand": "sidebar_tree"
+			}
+		]
+	},
+	{
+		"keys": ["j"],
+		"command": "move",
+		"args":
+		{
+			"by": "lines",
+			"forward": true
+		},
+		"context":
+		[
+			{
+				"key": "control",
+				"operand": "sidebar_tree"
+			}
+		]
+	},
+	{
+		"keys": ["k"],
+		"command": "move",
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"context":
+		[
+			{
+				"key": "control",
+				"operand": "sidebar_tree"
+			}
+		]
+	},
+	{
+		"keys": ["l"],
+		"command": "move",
+		"args":
+		{
+			"by": "characters",
+			"forward": true
+		},
+		"context":
+		[
+			{
+				"key": "control",
+				"operand": "sidebar_tree"
+			}
+		]
+	},
+```
+
+
 Enjoy!

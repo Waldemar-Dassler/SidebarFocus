@@ -1,6 +1,11 @@
 import sublime
 import sublime_plugin
 
+def plugin_reload():
+    global close_sidebar_if_opened
+    close_sidebar_if_opened = settings_base.get(
+        'close_sidebar_if_opened', settings.get('close_sidebar_if_opened'))
+
 class SidebarFocus(sublime_plugin.WindowCommand):
     def run(self):
         if not self.window.is_sidebar_visible():

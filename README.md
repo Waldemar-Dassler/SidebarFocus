@@ -5,7 +5,7 @@ Simple package for focused on sidebar and unfocus when close sidebar.
 ### Installation
 
 1. Install Package Controll
-2. Install * SidebarFocus* from PackageControl
+2. Install *SidebarFocus* from PackageControl
 3. Add hotkey *Preferences > Key Bindings*:
 ```json
 { "keys": ["f1"], "command": "sidebar_focus" }

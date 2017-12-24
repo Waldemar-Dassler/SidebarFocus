@@ -3,7 +3,7 @@
 	"details": "https://github.com/Waldemar-Dassler/SidebarFocus",
 	"releases": [
 		{
-			"sublime_text": "*",
+			"sublime_text": "3000",
 			"tags": true
 		}
 	]

@@ -1,0 +1,10 @@
+{
+	"name": "Sidebar Focus",
+	"details": "https://github.com/Waldemar-Dassler/SidebarFocus",
+	"releases": [
+		{
+			"sublime_text": "*",
+			"tags": true
+		}
+	]
+}
